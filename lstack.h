@@ -20,7 +20,7 @@ class lstack {
         void push(const T&);
         T pop();
         void swapstack(lstack<T>&);
-        void swapElements(int, int);
+        void swap(int, int);
         void reverseStack();
 
         T top() const;
